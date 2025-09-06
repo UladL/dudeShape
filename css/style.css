@@ -278,6 +278,70 @@ background-image:url("../img/green.png")
 
 /* block5 */
 
+.all{
+  text-align: center;
+  padding-top: 140px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #242424;
+}
+
+.textInside{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 20px;
+}
+.def{
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  color: #154444;
+}
+.insides{
+  display: flex;
+}
+.mainphoto{
+  margin-top: 89px;
+position: relative;
+display: inline-block;
+}
+.photosBLOCK{
+  margin-top: 120px;
+  margin-left: 135px;
+ 
+}
+
+.photosBLOCK img{
+  margin: 15px;
+}
+
+.fakeframe{
+  position: absolute;
+  z-index: -1;
+
+}
+.yesyes{
+  display: block;
+ 
+}
+.firstrec{
+top: 0;
+left: 0;
+transform: translate(-5%, -5%);
+}
+.secondrec{
+ bottom: 0;
+ right: 0;
+ transform: translate(5%, 5%);
+}
+
+
+
 
 @media (max-width: 900px){
   .block2{

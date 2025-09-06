@@ -28,6 +28,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-  let buttons = document.querySelectorAll(".buyNowBtn");
+  const buttons = document.querySelectorAll(".buyNowBtn"); // найти все кнопки
 
-  
+  buttons.forEach(button => { // стрелка фуннция button = 1,2,3,4 etc
+    button.addEventListener("click", () => { //дабав add event для каждой кнопки
+      alert("Ваша заявка принята! После обработки с вами свяжется менеджер нашей компании для согласовании заявки.");
+    });// alert !
+  });

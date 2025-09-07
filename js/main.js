@@ -35,3 +35,15 @@ document.addEventListener("DOMContentLoaded", function() {
       alert("Ваша заявка принята! После обработки с вами свяжется менеджер нашей компании для согласовании заявки.");
     });// alert !
   });
+
+
+
+ let container = document.querySelector(".textInside");
+let headers = container.querySelectorAll(".def");
+
+headers.forEach(h => {
+  h.addEventListener("click", () => {
+    container.querySelectorAll(".def.under").forEach(el => el.classList.remove("under"));
+    h.classList.add("under");
+  });
+});

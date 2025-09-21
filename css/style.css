@@ -596,11 +596,102 @@ display: inline-block;
 .block8{
   background-color: #305F64;
   width: 100%;
-  height: 442px;
+  height: 450px;
   margin-top: 100px;
 }
 
 .b8table{
 color: white;
 font-family: "Montserrat", sans-serif;
+}
+
+/* FOOTER */
+
+.td1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 100px;
+  padding-bottom: 24px ;
+}
+.td2{
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 24px;
+ 
+}
+.td3{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 40px;
+  padding-bottom: 14px;
+}
+.tf1{
+  padding-left: 170px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.tf2{
+  padding-top: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 170px;
+}
+.tf3{
+  padding-left: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+ 
+}
+
+.tf4{
+  padding-top: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 100px;
+}
+
+.tf5{
+  padding-left: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.tf6{
+  padding-top: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 100px;
+}
+.email1{
+  color: #858585;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400; 
+  padding-top: 40px;
+  padding-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+.line{
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
 }

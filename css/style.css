@@ -496,7 +496,40 @@ display: inline-block;
   width: 410px;
 
  }
+ .b4h2{
+  text-align: center;
+ }
+.b4p1{
+  text-align: center;
 }
+.swiper-button-prev{
+  gap: 30px;
+}
+.swiper {
+  display: block;
+}
+.circle{
+  display: none;
+}
+.main444{
+  display: none;
+}
+.funky{
+  text-align: center;
+  padding-left: 0;
+}
+.funkyp{
+  text-align: center;
+  padding-left: 0;
+}
+.jhon{
+  padding-left: 160px;
+}
+.line{
+  color: black;
+}
+}
+
 
 
 .swiper {
@@ -525,7 +558,6 @@ display: inline-block;
   z-index: 1;
   width: 100%;   
   height: auto;
-  display: block;
 }
 
 .dark{
@@ -674,8 +706,10 @@ font-family: "Montserrat", sans-serif;
   color: #858585;
   font-family: "DM Sans", sans-serif;
   font-weight: 400; 
-  padding-top: 40px;
-  padding-left: 100px;
+  width: 200px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 100px;
 }
 
 

@@ -326,7 +326,7 @@ display: inline-block;
 
 }
 .yesyes{
-  display: block;
+ 
  
 }
 .firstrec {
@@ -485,7 +485,7 @@ display: inline-block;
 
  }
  .block1_2{
-  width: 410px;
+  width: 430px;
   height: 300px;
  }
  .button1{
@@ -493,7 +493,7 @@ display: inline-block;
   margin: auto;
  }
  .chair{
-  width: 410px;
+  width: 430px;
 
  }
  .b4h2{
@@ -523,11 +523,52 @@ display: inline-block;
   padding-left: 0;
 }
 .jhon{
-  padding-left: 160px;
+padding-left: 160px;
 }
 .line{
   color: black;
 }
+.secondrec{
+  display: none;
+}
+.yesyes{
+  display: none;
+}
+.firstrec{
+  display: none;
+}
+.photosBLOCK{
+  margin-left: 90px;
+}
+.tf1{
+  padding-left: 50px !important; 
+}
+.tf2{
+  padding-left: 50px !important;
+}
+.tf3{
+  padding-left: 50px !important;
+}
+.tf4{
+  padding-left: 50px !important;
+}
+.buttonphone{
+  display: none;
+}
+.line{
+  color: black !important;
+}
+.mainPHOTO{
+  padding-left: 40px;
+}
+.def{
+  font-size: 20px !important;
+  padding-left: 10px;
+}
+.firsttd{
+  padding-left: 10px;
+}
+
 }
 
 

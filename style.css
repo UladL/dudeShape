@@ -453,6 +453,11 @@ display: inline-block;
 
 
 @media (max-width: 450px) {
+  
+  .jokes::before,
+  .jokes::after {
+  display: none;
+}
   .container{
     padding: 0;
     margin: 0;
@@ -461,10 +466,11 @@ display: inline-block;
     gap: 19px;
   }
   .logo{
-   padding: 20px 0;
+   padding: 20px;
   }
   .photos{
     gap: 9px;
+    display: none;
   }
  .block1con{
   display: flex;
